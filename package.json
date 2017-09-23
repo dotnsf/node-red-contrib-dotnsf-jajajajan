@@ -1,6 +1,6 @@
 {
-  "name": "node-red-contrib-dotnsf-jajajaja-n",
-  "version": "0.0.1",
+  "name": "node-red-contrib-dotnsf-jajajajan",
+  "version": "0.0.3",
   "description": "A node which convert string into rhythm for payload.",
   "dependencies": {},
   "keywords": [
@@ -8,7 +8,7 @@
   ],
   "node-red": {
     "nodes": {
-      "jajajaja-n": "jajaja.js"
+      "jajajajan": "jajaja.js"
     }
   },
   "main": "jajaja.js",
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dotnsf/node-red-contrib-dotnsf-jajajaja-n.git"
+    "url": "git+https://github.com/dotnsf/node-red-contrib-dotnsf-jajajajan.git"
   },
   "author": "K.Kimura <dotnsf@gmail.com> (https://twitter.com/dotnsf)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dotnsf/node-red-contrib-dotnsf-jajajaja-n/issues"
+    "url": "https://github.com/dotnsf/node-red-contrib-dotnsf-jajajajan/issues"
   },
-  "homepage": "https://github.com/dotnsf/node-red-contrib-dotnsf-jajajaja-n#readme"
+  "homepage": "https://github.com/dotnsf/node-red-contrib-dotnsf-jajajajan#readme"
 }
