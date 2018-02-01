@@ -46,7 +46,7 @@ module.exports = function( RED ){
       if( n > 0 ){
         var sec = 8 / n;
         
-        node.send( { payload: c, rhythm: n } );
+        node.send( { payload: c, note: n } );
         setTimeout( sendCharAt, sec * 500, arr, node, idx + 1 );
       }else{
         sendCharAt( arr, node, idx + 1 );
