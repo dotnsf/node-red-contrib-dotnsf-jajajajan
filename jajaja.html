@@ -24,11 +24,11 @@ RED.nodes.registerType( 'jajajajan', {
 <script type="text/x-red" data-help-name="jajajajan">
   <p>Node for Node-RED which parse rhythm for payload in Japanese.</p>
   <br/>
-  <p>ex 1. "じゃじゃじゃじゃーん"  -> "8882"</p>
-  <p>This means "じゃじゃじゃじゃーん" would have rhythm  "8(octed) 8 8 2(half)" tone.</p>
+  <p>ex 1. 'じゃじゃじゃじゃーん'  -> '{payload:"じゃ",note:8}, {payload:"じゃ",note:8}, {payload:"じゃ",note:8}, {payload:"じゃーん",note:2}'</p>
+  <p>This means 'じゃじゃじゃじゃーん' would have rhythm  "8(octed), 8, 8, and 2(half)" tone.</p>
   <br/>
-  <p>ex 2. "ランララララランランラン"  -> "48888444"</p>
-  <p>This means "ランララララランランラン" would have rhythm  "4(quoter) 8 8 8 8 4 4 4" tone.</p>
+  <p>ex 2. 'ランララララランランラン'  -> '{payload:"ラン",note:4}, {payload:"ラ",note:8}, {payload:"ラ",note:8}, {payload:"ラ",note:8}, {payload:"ラ",note:8}, {payload:"ラン",note:4}, {payload:"ラン",note:4}, {payload:"ラン",note:4}'</p>
+  <p>This means 'ランララララランランラン' would have rhythm  '4(quoter), 8, 8, 8, 8, 4, 4, and 4' tone.</p>
 </script>
 
 
